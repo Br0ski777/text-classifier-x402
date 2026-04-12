@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Br0ski777/text-classifier",
+  "title": "Text Classifier API",
+  "description": "Classify text into categories with confidence, readability, content type. x402.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/Br0ski777/text-classifier-x402",
+  "repository": {
+    "url": "https://github.com/Br0ski777/text-classifier-x402",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://text-classifier-x402-production.up.railway.app/mcp"
+    }
+  ]
+}
