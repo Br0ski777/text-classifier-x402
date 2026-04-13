@@ -39,6 +39,42 @@ Do NOT use for sentiment -- use text_analyze_sentiment. Do NOT use for summariza
         },
         required: ["text"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "Input text (truncated)"
+            },
+            "topCategory": {
+              "type": "string",
+              "description": "Best matching category"
+            },
+            "confidence": {
+              "type": "number",
+              "description": "Confidence score"
+            },
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": {
+                    "type": "string"
+                  },
+                  "score": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "topCategory",
+            "confidence",
+            "categories"
+          ]
+        },
     },
   ],
 };
