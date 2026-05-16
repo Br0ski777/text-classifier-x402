@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://text-classifier-x402-production.up.railway.app/mcp"
+      "url": "https://text-classifier.api.klymax402.com/mcp"
     }
   ]
 }
