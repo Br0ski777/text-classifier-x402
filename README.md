@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `text_classify_content` | POST | `/api/classify` | $0.005 | Classify text content into categories with confidence scores and readability metrics |
+| `text_classify_content` | POST | `/api/classify` | $0.012 | Classify text content into categories with confidence scores and readability metrics |
 
 ### `text_classify_content`
 
