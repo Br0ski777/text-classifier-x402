@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/classify",
-      price: "$0.005",
+      price: "$0.012",
       description: "Classify text content into categories with confidence scores and readability metrics",
       toolName: "text_classify_content",
       toolDescription:
